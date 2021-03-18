@@ -5,13 +5,13 @@ import Estrela from '../assets/star.png';
 import Icons from './icon';
 import Avatar from '../assets/avatar.png';
 
-
+{/* Neste componente foi criado o HEAD do site tendo o perfil carrinho de compras e o menu */}
 
 export default function navbar(){
     return(
         <div>
             <header className="w3-col">
-                 <div className="w3-row-padding w3-light-grey"> 
+                 <div className="w3-row padding-left padding-right w3-light-grey"> 
                     <div className="w3-content ">
                         <div className="w3-half w3-text-black">
                             <h6 className=" w3-bar-item w3-mobile"><b>Perguntas? Precisa de ajuda?</b> Ligue para nós  (+123) 456 1500</h6>
@@ -50,7 +50,7 @@ export default function navbar(){
                 <div className="w3-row darkblue w3-padding">
                 
 
-
+                    {/* Neste parte temos o menu eu centralizei ele na versao mobile porem nao tive tempo de configurar os scripts ficar melhor responsivel*/}
                     <div className=" w3-content w3-bar w3-mobile">
                         
                         <div className="w3-col w3-bar-item w3-l2 w3-mobile menu"><h5>HOME</h5></div>

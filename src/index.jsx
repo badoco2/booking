@@ -4,16 +4,16 @@ import "./index.css";
 import Navbar from './componente/Navbar';
 import Oferta from './componente/Oferta';
 import Footer from './componente/Footer';
-import Pacotes from './componente/OutrosPacotes';
 
+/* Gosto de utilizar componentes para a montagem do site */
+/* Foi utulizado uma biblioteca de CSS do W3CSS foi a primeira vez que a utilizei */
 const el = document.getElementById('root')
 ReactDOM.render(
     
     <div>
         <Navbar/>
         <Oferta/>
-        <Pacotes/>
-
+        <Footer/>
     </div>
 
 
